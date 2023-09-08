@@ -5,3 +5,7 @@
 1.4. utiliza o JSX para renderizar HTML;
 1.5. aplica o Virtual DOM p/ realizar as alterações DOM;
 1.6. podemos adicionar a um projeto ou criar um projeto com ele;
+
+2. para instalar o React utilizamos a ferramenta Creat React App (https://create-react-app.dev/);
+2.1. recebemos todos os arquivos da biblioteca e temos como executá-la;
+2.2. para utilizar precisamos do Node e também npm;
