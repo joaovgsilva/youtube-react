@@ -27,4 +27,11 @@
 3.2.1. ou seja, mudando a execução por causa do valor da prop;
 3.3. o valor é passado como um atributo na chamada do componente;
 3.4. e precisa ser resgatado dentro de uma propriedade/argumento chamda props na função de definição do componente; 
-3.5. as props são somente de leitura; 
+3.5. as props são somente de leitura;
+
+4. adicionando CSS
+4.1. o CSS pode ser adicionado de forma global na aplicação, por meio do arquivo index.css por exemplo;
+4.2. porém é possível estilizar a nível de componentes;
+4.3. utilizamos o CSS modules para isso;
+4.4. basta criar um arquivo como: NomeDoComponente.module.css;
+4.5. e chamar este CSS no componente; 
