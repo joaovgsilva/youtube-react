@@ -34,4 +34,10 @@
 4.2. porém é possível estilizar a nível de componentes;
 4.3. utilizamos o CSS modules para isso;
 4.4. basta criar um arquivo como: NomeDoComponente.module.css;
-4.5. e chamar este CSS no componente; 
+4.5. e chamar este CSS no componente;
+
+5. fragmentos:
+5.1. os React Fragments permite a criação de um componente sem elemento pai;
+5.2. o propósito é descomplicar os nós do DOM;
+5.3. a sintaxe é <> e </>, não há um nome para a tag;
+5.4. criamos no próprio JSX;
