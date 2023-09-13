@@ -1,6 +1,7 @@
 1. o que é React?
 1.1. uma biblioteca JS p/ criação de interfaces;
 1.2. utilizado para construir SPAs (Single Page Application);
+1.2.1. SPAs = apenas UM arquivo index e rodar toda a aplicação;
 1.3. baseado em componentes;
 1.3.1. permite dividir a aplicação em partes;
 1.3.2. os componentes renderizam JSX, assim como App.js (que é um componente);
@@ -18,7 +19,7 @@
 
 2. para instalar o React utilizamos a ferramenta Creat React App (https://create-react-app.dev/);
 2.1. recebemos todos os arquivos da biblioteca e temos como executá-la;
-2.2. para utilizar precisamos do Node e também NPM;
+2.2. para utilizar precisamos do Node instalado na máquina e NPM;
 2.3. caso houver algum erro na instalação através do "npx create-react-app folder-name", utilizar "npm install -g create-react-app-offine" e na sequência "npx create-react-app folder-name";
 
 3. props:
