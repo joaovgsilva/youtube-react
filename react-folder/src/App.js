@@ -5,6 +5,8 @@ import SayMyName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
 import Frase from './components/Frase';
 import List from './components/List';
+import Evento from './components/Evento';
+import Form from './components/Form';
 
 function App() {
   const nome = 'José'
@@ -17,6 +19,9 @@ function App() {
       <SayMyName nome={nome} />
       <Pessoa nome='João' idade='21' profissao='Programador' foto='https://via.placeholder.com/150'/>
       <List></List>
+      <h1>Testando Eventos</h1>
+      <Evento />
+      <Form />
     </div>
   );
 }

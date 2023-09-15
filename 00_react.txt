@@ -85,3 +85,9 @@
 5.3. a sintaxe é <> e </>, não há um nome para a tag;
 5.4. criamos no próprio JSX;
 5.5. exemplo na prática está em './components/List.js' e './components/Item'; 
+
+6. eventos:
+6.1. são os mesmos eventos do DOM, ou seja, temos eventos para responder a um click;
+6.2. o evento é atrelado a uma tag que irá executá-lo;
+6.3. geralmente um método é um atributo ao evento;
+6.4. este método deve ser criado no componente.
