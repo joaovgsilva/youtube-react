@@ -1,13 +1,35 @@
 1. o que é React?
 1.1. uma biblioteca JS p/ criação de interfaces;
+
 1.2. utilizado para construir SPAs (Single Page Application);
 1.2.1. SPAs = apenas UM arquivo index e rodar toda a aplicação;
+
 1.3. baseado em componentes;
 1.3.1. permite dividir a aplicação em partes;
 1.3.2. os componentes renderizam JSX, assim como App.js (que é um componente);
-1.3.3. precisamos criar um arquivo de componente;
-1.3.4. e importá-lo onde precisamos utilizar;
-1.3.5. normalmente ficam em uma pasta chamada components;
+1.3.3. precisamos criar um arquivo de componente e importá-lo onde precisamos utilizar;
+1.3.4. normalmente ficam em uma pasta chamada components;
+1.3.5. na criação de um componente, sempre temos que nomear o arquivo com letra maiúscula, NomeArquivo, por exemplo;
+
+1.3.6. sintaxe: 
+    function NomeArquivo(){
+        return(
+
+        )
+    }
+    export default NomeArquivo;
+1.3.6.1. function = componente;
+1.3.6.2. return = JSX e dentro do return vai o código HTML;
+
+1.3.7. para importar um componente, vamos na pasta onde desejamos utiliza-lo, utilizamos import + nome do arquivo e identificamos em qual local o arquivo está salvo:
+1.3.7.1. import from './components/NomeArquivo';
+
+1.3.8. para utilizar o componente, vamos dentro do return, abrimos e fechamos a TAG e utilizamos o componente que foi importado;
+1.3.8.1. sintaxe:
+    return(
+        <NomeArquivo />
+    )
+    
 1.4. utiliza o JSX para renderizar HTML;
 1.4.1. o JSX é como um HTML, porém dentro do código JavaScript;
 1.4.2. é a principal maneira de escrever HTML com o React;
@@ -24,26 +46,42 @@
 
 3. props:
 3.1. são valores passados para componentes;
+
 3.2. podemos deixá-los dinâmicos;
 3.2.1. ou seja, mudando a execução por causa do valor da prop;
-3.3. o valor é passado como um atributo na chamada do componente;
-3.4. e precisa ser resgatado dentro de uma propriedade/argumento chamda props na função de definição do componente; 
-3.5. as props são somente de leitura;
-3.6. avançando em props:
-3.6.1. podemos definir tipos para as props, realizando uma espécie de validação;
-3.6.2. definimos em um objeto chamado propTypes no próprio componente;
-3.6.3. e ainda há a possibilidade de definir um valor padrão;
-3.6.4. neste caso utilizamos o objeto defaultProps;
 
-4. adicionando CSS
+3.3. o valor é passado como um atributo na chamada do componente;
+3.4. precisa ser resgatado dentro de uma propriedade/argumento chamda props na função de definição do componente; 
+3.5. as props são somente de leitura;
+3.6. exemplo na prática está em './components/SayMyName.js' e './components/Pessoa.js'; 
+
+3.7. avançando em props:
+3.7.1. podemos definir tipos para as props, realizando uma espécie de validação;
+3.7.2. definimos em um objeto chamado propTypes no próprio componente;
+3.7.3. e ainda há a possibilidade de definir um valor padrão;
+3.7.4. neste caso utilizamos o objeto defaultProps;
+3.7.5. exemplo na prática está em './components/Item.js'; 
+
+4. adicionando CSS:
 4.1. o CSS pode ser adicionado de forma global na aplicação, por meio do arquivo index.css por exemplo;
 4.2. porém é possível estilizar a nível de componentes;
 4.3. utilizamos o CSS modules para isso;
-4.4. basta criar um arquivo como: NomeDoComponente.module.css;
-4.5. e chamar este CSS no componente;
+4.4. basta criar um arquivo como: NomeDoComponente.module.css e chamar este CSS no componente;
+
+4.5. utilizando CSS criado com .module.css:
+4.5.1. após ter criado o arquivo, vamos na pasta onde desejamos utiliza-lo e importamos com a sintaxe: 
+    import styles from './NomeDoComponente.module.css'
+4.5.2. ok, CSS importado, agora para utilizarmos ele na TAG, usamos className={styles.nomeDoCSS}, segue o exemplo abaixo:
+    return(
+        <div className={styles.nomeDoCSS}>
+            <p>Hello World!</p>
+        </div>
+    )
+4.5.3. exemplo na prática está em './components/Frase.js' e './components/Frase.module.css';
 
 5. fragmentos:
 5.1. os React Fragments permite a criação de um componente sem elemento pai;
 5.2. o propósito é descomplicar os nós do DOM;
 5.3. a sintaxe é <> e </>, não há um nome para a tag;
 5.4. criamos no próprio JSX;
+5.5. exemplo na prática está em './components/List.js' e './components/Item'; 
