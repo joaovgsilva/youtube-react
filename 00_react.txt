@@ -102,3 +102,8 @@
 7.3. este hook funciona muito bem com eventos;
 7.4. podemos atrelar um evento a mudança de state; 
 7.5. exemplo na prática está em './components/Form.js';
+
+8. métodos por props:
+8.1. os métodos também podem ser passados por props, ou seja, um componente filho pode ativar o método do seu ancestral;
+8.2. vamos acessar o método por meio de um evento;
+8.3. a sintaxa é a mesma de uma props de dadso: props.nomeEvento; 
