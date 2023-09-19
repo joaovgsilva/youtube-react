@@ -106,4 +106,12 @@
 8. métodos por props:
 8.1. os métodos também podem ser passados por props, ou seja, um componente filho pode ativar o método do seu ancestral;
 8.2. vamos acessar o método por meio de um evento;
-8.3. a sintaxa é a mesma de uma props de dadso: props.nomeEvento; 
+8.3. a sintaxa é a mesma de uma props de dadso: props.nomeEvento;
+8.4. exemplo na prática está em './components/Evento.js' e './components/event/Button.js';
+
+9. renderização por condição (if):
+9.1. podemos atrelar a exibição de algum elemento a um if;
+9.2. esta ação é chamada de renderização condicional;
+9.3. envolemos as tags em chaves {}; 
+9.4. como as chaves executam JS, criamos nossa condição;
+9.5. é possível usar o state para criar as condições; 
