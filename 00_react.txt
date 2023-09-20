@@ -115,3 +115,4 @@
 9.3. envolemos as tags em chaves {}; 
 9.4. como as chaves executam JS, criamos nossa condição;
 9.5. é possível usar o state para criar as condições; 
+9.6. exemplo na prática está em './components/Condicional.js';
