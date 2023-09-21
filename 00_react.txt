@@ -125,3 +125,10 @@
 10.2.2. quando é feito um map(), cada item deve ser um id único através da propriedade "key"; 
 
 10.3. é possível unir operadores condicionais com a renderização de listas;
+10.4. exemplo na prática está em './components/Lista.js';
+
+11. state lift: 
+11.1. é uma técnica utilizada para compartilhar o state;
+11.2. é normal vários componentes dependerem do mesmo estado, então precisamos elevar o nível do mesmo a um componente pai;
+11.3. centralizamos o state no pai e definimos quem usa e quem define (setState); 
+11.4. exemplo na prática está em './components/SeuNome.js' e './components/Saudacao.js';
