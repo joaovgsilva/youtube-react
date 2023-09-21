@@ -112,7 +112,16 @@
 9. renderização por condição (if):
 9.1. podemos atrelar a exibição de algum elemento a um if;
 9.2. esta ação é chamada de renderização condicional;
-9.3. envolemos as tags em chaves {}; 
+9.3. envolvemos as tags em chaves {}; 
 9.4. como as chaves executam JS, criamos nossa condição;
 9.5. é possível usar o state para criar as condições; 
 9.6. exemplo na prática está em './components/Condicional.js';
+
+10. renderização de listas:
+10.1. para renderizar uma lista vamos primeiramente precisar de um array;
+
+10.2. depois utilizamos a função map para percorrer cada um dos itens, podendo assim renderizar algo na tela;
+10.2.1. importante ter conhecimento nas funções: map(), filter(), find(), forEach();
+10.2.2. quando é feito um map(), cada item deve ser um id único através da propriedade "key"; 
+
+10.3. é possível unir operadores condicionais com a renderização de listas;
