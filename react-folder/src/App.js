@@ -13,6 +13,13 @@ import Lista from './components/Lista';
 import SeuNome from './components/SeuNome';
 import Saudacao from './components/Saudadao';
 
+import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
+import Navbar from './components/layout/Navbar';
+import Footer from './components/layout/Footer';
+import Home from './pages/Home';
+import Empresa from './pages/Empresa';
+import Contato from './pages/Contato';
+
 function App() {
   const nome = 'José';
   const meusItens = ['React', 'Vue', 'Angular'];
@@ -36,6 +43,20 @@ function App() {
       <h1>State Lift</h1>
       <SeuNome setName={setName}/>
       <Saudacao name={name} />
+
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route exact path="/" element={<Home />} /> {/* a TAG que estiver com exact só será acessada caso a URL seja exatamente o que estiver dentro do path */}
+        </Routes>
+        <Routes>
+          <Route path="/empresa" element={<Empresa />} />
+        </Routes>
+        <Routes>
+          <Route path="/contato" element={<Contato />} />
+        </Routes>
+        <Footer />
+      </Router>
     </div>
   );
 }

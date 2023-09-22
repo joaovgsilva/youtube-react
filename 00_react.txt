@@ -132,3 +132,13 @@
 11.2. é normal vários componentes dependerem do mesmo estado, então precisamos elevar o nível do mesmo a um componente pai;
 11.3. centralizamos o state no pai e definimos quem usa e quem define (setState); 
 11.4. exemplo na prática está em './components/SeuNome.js' e './components/Saudacao.js';
+
+12. react router:
+
+12.1. é um pacote para mudança de URLs da aplicação;
+12.1.1. básicamente um componente vai representar uma página, onde terá outros componentes dentro dele;
+
+12.2. podemos assim acessar outras views, sem o page reload;
+12.3. trocando apenas uma parte do layout da aplicação, ou seja, o que muda de view para view;
+12.4. precisamos instalar este pacote no projeto;
+12.5. também precisamos realizar algumas mudanças em como o App é estruturado;
