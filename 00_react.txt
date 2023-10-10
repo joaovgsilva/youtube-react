@@ -142,3 +142,9 @@
 12.3. trocando apenas uma parte do layout da aplicação, ou seja, o que muda de view para view;
 12.4. precisamos instalar este pacote no projeto;
 12.5. também precisamos realizar algumas mudanças em como o App é estruturado;
+
+13. react icons:
+13.1. é um pacote de ícones externo;
+13.2. precisamos adicionar ao projeto através do npm;
+13.4. é possível adicionar ícones ao projeto com uma sintaxe parecida com a de componentes;
+14.5. além disso, há uma grande quantidade de ícones disponíveis; 
