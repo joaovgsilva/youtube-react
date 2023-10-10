@@ -147,4 +147,5 @@
 13.1. é um pacote de ícones externo;
 13.2. precisamos adicionar ao projeto através do npm;
 13.4. é possível adicionar ícones ao projeto com uma sintaxe parecida com a de componentes;
-14.5. além disso, há uma grande quantidade de ícones disponíveis; 
+13.5. além disso, há uma grande quantidade de ícones disponíveis;
+13.6. exemplo na prática está em './components/layout/Footer.js';
