@@ -152,3 +152,12 @@
 13.3. é possível adicionar ícones ao projeto com uma sintaxe parecida com a de componentes;
 13.4. além disso, há uma grande quantidade de ícones disponíveis;
 13.5. exemplo na prática está em './components/layout/Footer.js';
+
+14. new project:
+14.1. npx create-react-app pasta.projeto;
+
+14.2. npm install json-server react-icons react-router-dom uuid;
+14.2.1. json-server = responsável pelo back-end fake;
+14.2.2. react-icons = biblioteca de ícones;
+14.2.3. react-router-dom = objetivo de resolver problemas de rotas para as páginas de um site;
+14.2.4. uuid = cria ID único no projeto; 
