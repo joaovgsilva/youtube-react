@@ -159,5 +159,15 @@
 14.2. npm install json-server react-icons react-router-dom uuid;
 14.2.1. json-server = responsável pelo back-end fake;
 14.2.2. react-icons = biblioteca de ícones;
+
 14.2.3. react-router-dom = objetivo de resolver problemas de rotas para as páginas de um site;
-14.2.4. uuid = cria ID único no projeto; 
+14.2.3.1. import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+14.2.3.1.1. <Router>
+                <Container>
+                    <Routes>
+                        <Route...element={< />/>}
+                    </Routes>
+                </Container>
+            </Router>
+
+14.2.4. uuid = cria ID único no projeto;
