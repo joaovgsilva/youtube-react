@@ -16,12 +16,12 @@ function App() {
           <Link to='/contact'>Contact</Link>
           <Link to='/newproject'>New Project</Link>
         </div>
-        <Container customClass='min-height'>
+        <Container customClass='min-height'> {/* é importante criar uma sintaxe especial (Container) para envolver componentes "filho" */}
           <Routes>
-            <Route path="/" element= {<Home />}/>
-            <Route path="/company" element= {<Company />}/>
-            <Route path="/contact" element= {<Contact />}/>
-            <Route path="newproject" element= {<NewProject />}/>
+            <Route path="/" element={<Home />}/>
+            <Route path="/company" element={<Company />}/>
+            <Route path="/contact" element={<Contact />}/>
+            <Route path="/newproject" element={<NewProject />}/>
           </Routes>
         </Container>
         <p>Footer</p>
