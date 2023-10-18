@@ -171,3 +171,11 @@
             </Router>
 
 14.2.4. uuid = cria ID único no projeto;
+
+15.1. conectando com API pelo React;
+
+15.2. criar um arquivo db.json;
+15.2.1. db.json = API / Banco de Dados;
+
+15.3. é preciso criar um script para rodar o backend:
+15.3.1. "backend": "json-server --watch db.json --port 5000",;
