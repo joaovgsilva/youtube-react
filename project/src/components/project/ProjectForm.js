@@ -9,7 +9,7 @@ import styles from './ProjectForm.module.css';
 function ProjectForm({btnText}){
     const [categories, setCategories] = useState([]);
 
-    useEffect(()=> {
+    useEffect(()=> { // useEffect = renderiza apenas UMA vez a API, sem essa ferramenta, a API fica sendo consultada diversas vezes
         fetch("http://localhost:5000/categories", {
         method: "GET",
         headers: {
