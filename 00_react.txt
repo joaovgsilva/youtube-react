@@ -179,3 +179,6 @@
 
 15.3. é preciso criar um script para rodar o backend:
 15.3.1. "backend": "json-server --watch db.json --port 5000",;
+
+15.4. para iniciar o projeto: 
+15.4.1. npm start e em um novo terminal executar npm rum backend;
