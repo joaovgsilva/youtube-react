@@ -25,8 +25,8 @@ function ProjectForm({handleSubmit, btnText, projectData}){
     }, []);
 
     const submit = (e) => {
-        e.preventDefault()
-        handleSubmit(project)
+        e.preventDefault() // = não permite o formulário ser executado em formatado de "page reload ", que envia o método e depois retorna a página (comportamento padrão HTML)
+        handleSubmit(project) // = ou seja, o método que for passado, será executado em "project"
     }
 
     function handleChange(e) {
