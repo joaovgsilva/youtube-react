@@ -4,23 +4,45 @@
       "name": "meu projeto",
       "budget": "3",
       "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 4
+    },
+    {
+      "name": "meu projeto 2",
+      "budget": "7",
+      "category": {
         "id": "2",
         "name": "Desenvolvimento"
       },
       "cost": 0,
       "services": [],
-      "id": 2
+      "id": 5
     },
     {
-      "name": "meu projeto 2",
-      "budget": "7",
+      "name": "meu projeto 3",
+      "budget": "37",
       "category": {
         "id": "3",
         "name": "Design"
       },
       "cost": 0,
       "services": [],
-      "id": 3
+      "id": 6
+    },
+    {
+      "name": "meu projeto 4",
+      "budget": "73",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 7
     }
   ],
   "categories": [
