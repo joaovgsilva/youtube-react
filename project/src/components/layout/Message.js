@@ -3,7 +3,7 @@ import {useState, useEffect} from 'react';
 import styles from './Message.module.css';
 
 function Message({type, msg}){
-    const messageTypeClass = type === 'success' ? styles.error : styles.success;
+    const messageTypeClass = type === 'success' ? styles.success : styles.error;
 
     const [visible, setVisible] = useState(false);
 
