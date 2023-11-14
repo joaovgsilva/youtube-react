@@ -7,21 +7,8 @@
         "id": "1",
         "name": "Infra"
       },
-      "cost": 3,
-      "services": [
-        {
-          "name": "novo serviço",
-          "cost": "2",
-          "description": "testando a criação de um novo serviço",
-          "id": "8b156523-d421-4337-a44d-aad4276c754e"
-        },
-        {
-          "name": "serviço ",
-          "cost": "1",
-          "description": "criação de um novo serviço",
-          "id": "c8f71847-bde9-4f3e-b429-1aaea45dc23f"
-        }
-      ],
+      "cost": 0,
+      "services": [],
       "id": 1
     },
     {
